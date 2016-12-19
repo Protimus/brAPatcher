@@ -1,0 +1,13 @@
+{
+  "host": {
+  	"host_domain": "www.brathena.org",
+  	"host_port": 80
+  },
+  "sql": {
+    "sql_domain": "www.brathena.org",
+    "sql_port": 3306
+  },
+  "patch": {
+  	"patch_list:" "patchlist.txt"
+  }
+}
