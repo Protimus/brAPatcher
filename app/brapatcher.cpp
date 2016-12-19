@@ -1,7 +1,10 @@
 #include "interface.h"
+#include <iostream>
 #include <QApplication>
 #include <QFile>
 #include <QTextStream>
+
+using namespace std;
 
 int main(int argc, char *argv[])
 {
@@ -11,7 +14,7 @@ int main(int argc, char *argv[])
     QFile f(":style/ancient.qss");
     if (!f.exists())
     {
-        printf("Unable to set stylesheet, file not found\n");
+        cout << "Unable to set stylesheet, file not found\n";
     }
     else
     {
