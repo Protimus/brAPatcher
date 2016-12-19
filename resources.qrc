@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/ancient-bg.png</file>
+    </qresource>
+  	<qresource prefix="style">
+    	<file>brathena.qss</file>
+    	<file>ancient.qss</file>
+	</qresource>
+</RCC>

@@ -20,6 +20,6 @@ HEADERS  += app\interface.h
 FORMS    += app\interface.ui
 
 RESOURCES += \
-    images.qrc
+    resources.qrc
 
 DISTFILES +=
