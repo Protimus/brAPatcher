@@ -2,3 +2,14 @@
 @author Protimus
 @date 12/19/16
 */
+
+QProgressBar {
+	border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+QProgressBar::chunk {
+    background-color: #fba51e;
+    width: 10px;
+    margin: 0.5px;
+}
