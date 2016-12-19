@@ -18,3 +18,8 @@ SOURCES += app\brapatcher.cpp\
 HEADERS  += app\interface.h
 
 FORMS    += app\interface.ui
+
+RESOURCES += \
+    images.qrc
+
+DISTFILES +=
