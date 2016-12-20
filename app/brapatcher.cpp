@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     MainWindow w;
     w.show();
-    QFile f(":style/ancient.qss");
+    QFile f(":style/brathena/brathena.qss");
     if (!f.exists())
     {
         cout << "Unable to set stylesheet, file not found\n";

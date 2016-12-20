@@ -20,7 +20,7 @@
    <string>brAthena</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background: url(:/img/ancient-bg.png)</string>
+   <string notr="true"/>
   </property>
   <widget class="QWidget" name="centralWidget">
    <property name="enabled">
@@ -38,9 +38,9 @@
    <widget class="QProgressBar" name="progressBar">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>400</y>
-      <width>400</width>
+      <x>80</x>
+      <y>370</y>
+      <width>351</width>
       <height>31</height>
      </rect>
     </property>
@@ -58,19 +58,29 @@
     <property name="geometry">
      <rect>
       <x>80</x>
-      <y>170</y>
-      <width>281</width>
-      <height>80</height>
+      <y>150</y>
+      <width>351</width>
+      <height>171</height>
      </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color:rgb(255, 255, 255)</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
     </property>
     <property name="frameShadow">
      <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>10</y>
+      <width>371</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: url(:/style/brathena/img/logo.png)</string>
     </property>
    </widget>
   </widget>
